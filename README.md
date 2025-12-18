@@ -44,8 +44,8 @@ This project develops and evaluates machine learning models to predict particula
 
 3. **Feature Engineering**
    - Wind speed at 10m: `U10 = √(u10² + v10²)`
-   - Total nitrogen oxides: `NOx = NO + NO2`
-   - Total volatile organic compounds: `VOC = C2H6 + C3H8 + C5H8`
+   - Total oxides of nitrogen: `NOx = NO + NO2`
+   - Proxy for volatile organic compounds: `VOC = C2H6 + C3H8 + C5H8`
    - Relative humidity from temperature and dewpoint temperature
 
 4. **Model Development**
@@ -82,8 +82,8 @@ This project develops and evaluates machine learning models to predict particula
    - Generate performance metrics table and visualization
 
 2. **Feature Importance Analysis**
-   - **Gini Importance:**
-   - **SHAP Analysis:**
+   - **Gini Importance**
+   - **SHAP Analysis**
 
 3. **SHAP Visualizations**
    - Summary plots showing feature impact on predictions
