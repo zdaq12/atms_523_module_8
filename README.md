@@ -70,7 +70,7 @@ This project develops and evaluates machine learning models to predict particula
    - `test_data.pkl`: Test dataset for model evaluation
    - JSON files with optimal hyperparameters for each of the three models
 
-### 2. `model_comparison.ipynb` - Model Evaluation & Validation
+### 2. `model_eval.ipynb` - Model Evaluation & Validation
 
 **Purpose:** Evaluation of trained models including performance metrics, feature importance analysis, model interpretability, and validation against EPA AQS observations.
 
